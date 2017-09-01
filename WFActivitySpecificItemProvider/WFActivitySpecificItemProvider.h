@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-NSString *const WFActivitySpecificItemProviderTypeDefault;
+FOUNDATION_EXTERN NSString *const WFActivitySpecificItemProviderTypeDefault;
 
 typedef id (^WFActivitySpecificItemProviderItemBlock)(NSString *activityType);
 
